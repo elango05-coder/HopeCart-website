@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange Old Dress | HopeCart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Exchange Old Dress</h2>
+    <form onsubmit="return submitExchange(event)">
+      <label>Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Old Dress Details:</label>
+      <input type="text" id="oldDress" required>
+
+      <label>Choose New Dress:</label>
+      <select id="newDress" required>
+        <option value="dress1">New Dress 1</option>
+        <option value="dress2">New Dress 2</option>
+      </select>
+
+      <button type="submit">Submit Exchange</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
